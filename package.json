@@ -1,0 +1,15 @@
+{
+  "name": "decentralized-chat",
+  "version": "1.0.0",
+  "description": "Децентрализованный чат с P2P архитектурой",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "decentralized-chat": "file:",
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
